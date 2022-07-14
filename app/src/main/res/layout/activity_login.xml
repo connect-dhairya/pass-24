@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".LoginActivity">
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/finallogonobg"
+        android:id="@+id/logoImage"
+        android:contentDescription="@string/todo"
+        android:transitionName="logo_image"/>
+
+
+    <TextView
+        android:id="@+id/welcome_string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_there_welcome_back"
+        android:fontFamily="@font/bungee"
+        android:textSize="40sp"
+        android:layout_marginTop="20sp"
+        android:textStyle="bold"
+        android:transitionName="logo_text"
+        android:textColor="@color/teal"/>
+
+    <TextView
+        android:id="@+id/sign_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_in_to_continue"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/antic"
+        android:textColor="@color/teal"
+        android:transitionName="SignIn_signUp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/usernameLogin"
+            android:hint="@string/username"
+            app:hintTextColor="@color/teal"
+            android:textColorHint="@color/teal"
+            app:boxStrokeColor="@color/teal"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_username"
+                android:textColor="@color/teal"
+                android:drawablePadding="10dp"
+                android:inputType="text">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/passwordLogin"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/teal"
+            app:hintTextColor="@color/teal"
+            android:textColorHint="@color/teal"
+            app:boxStrokeColor="@color/teal"
+            android:hint="@string/password"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_lock"
+                android:drawablePadding="10dp"
+                android:textColor="@color/teal"
+                android:inputType="textPassword">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/remembermebutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="16dp"
+                android:checked="true"
+                android:layout_gravity="center"
+                android:buttonTint="@color/teal"
+                android:textColorHint="@color/teal"
+                android:hint="Remember Me"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="end">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000"
+                    android:text="@string/forget_password"
+                    android:textColor="@color/grey"
+                    android:layout_gravity="center"
+                    android:onClick="callForgetPassword"
+                    android:layout_margin="5dp"
+                    android:elevation="0dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/go_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/buttonshape"
+            android:text="@string/go"/>
+
+        <Button
+            android:id="@+id/sign_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:transitionName="sign_login"
+            android:text="@string/new_user_sign_up"
+            android:textColor="@color/grey"
+            android:layout_margin="5dp"
+            android:elevation="0dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

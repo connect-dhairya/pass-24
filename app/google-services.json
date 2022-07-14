@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "424390711240",
+    "firebase_url": "https://pass24-final-default-rtdb.firebaseio.com",
+    "project_id": "pass24-final",
+    "storage_bucket": "pass24-final.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424390711240:android:d64f8f2d5d384f830812fd",
+        "android_client_info": {
+          "package_name": "com.example.firebasefirst"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424390711240-kepivdkup3fficla4g8ccnk31csas7rc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABNsb14cKMa0W2d9A0NOPnAOFAe-az1qI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "424390711240-kepivdkup3fficla4g8ccnk31csas7rc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424390711240:android:701ed54e2d4f04260812fd",
+        "android_client_info": {
+          "package_name": "com.example.pass24final"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424390711240-kepivdkup3fficla4g8ccnk31csas7rc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABNsb14cKMa0W2d9A0NOPnAOFAe-az1qI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "424390711240-kepivdkup3fficla4g8ccnk31csas7rc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

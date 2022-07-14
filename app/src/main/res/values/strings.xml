@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Pass24</string>
+
+
+    <string-array name="timtable_Ahmedabad2Rajkot_NoSunday">
+        <item>Arrival Time: 9:30 AM\n Expo bus service</item>
+        <item>Arrival Time: 11:00 AM\n Expo bus service</item>
+        <item>Arrival Time: 2:00 PM\n Red bus service</item>
+        <item>Arrival Time: 2:00 PM\n start service</item>
+        <item>Arrival Time: 6:00 PM\n Volvo bus service</item>
+        <item>Arrival Time: 8:30 PM\n Red bus service</item>
+    </string-array>
+
+    <string-array name="timtable_Ahmedabad2Rajkot_Sunday">
+        <item>Arrival Time: 9:30 AM\n start service</item>
+        <item>Arrival Time: 11:00 AM\n Expo bus service</item>
+        <item>Arrival Time: 2:00 PM\n Red bus service</item>
+        <item>Arrival Time: 5:00 PM\n Expo bus service</item>
+    </string-array>
+
+    <string-array name="timtable_Ahmedabad2Nadiad_NoSunday">
+        <item>Arrival Time: 9:30 AM\n Expo bus service</item>
+        <item>Arrival Time: 11:00 AM\n Red bus service</item>
+        <item>Arrival Time: 2:00 PM\n Expo bus service</item>
+        <item>Arrival Time: 5:00 PM\n start service</item>
+        <item>Arrival Time: 7:00 PM\n start service</item>
+    </string-array>
+
+    <string-array name="timtable_Ahmedabad2Nadiad_Sunday">
+        <item>Arrival Time: 9:30 AM\n Expo bus service</item>
+        <item>Arrival Time: 11:00 AM\n Red bus service</item>
+        <item>Arrival Time: 2:00 PM\n start service</item>
+        <item>Arrival Time: 5:00 PM\n Expo bus service</item>
+    </string-array>
+
+    <string-array name="NoBus">
+        <item>You are serched the same location</item>
+    </string-array>
+
+    <string-array name="timtable_Ahmedabad2Anand_NoSunday">
+        <item>Arrival Time: 9:30 AM\n Volvo bus service</item>
+        <item>Arrival Time: 11:00 AM\n Red bus service</item>
+        <item>Arrival Time: 2:00 PM\n Expo bus service</item>
+        <item>Arrival Time: 5:00 PM\n Expo bus service</item>
+        <item>Arrival Time: 6:00 PM\n Volvo bus service</item>
+        <item>Arrival Time: 8:00 PM\n start service</item>
+        <item>Arrival Time: 10:30 PM\n Expo bus service</item>
+    </string-array>
+
+    <string-array name="timtable_Ahmedabad2Anand_Sunday">
+        <item>Arrival Time: 9:30 AM\n Volvo bus service</item>
+        <item>Arrival Time: 11:00 AM\n Expo bus service</item>
+        <item>Arrival Time: 2:00 PM\n Red bus service</item>
+        <item>Arrival Time: 5:00 PM\n start service</item>
+    </string-array>
+
+
+    <string-array name="occupatinArray">
+        <item>--</item>
+        <item>Business</item>
+        <item>Salaried</item>
+    </string-array>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="navigation_open">Open Navigation drawer</string>
+    <string name="navigation_close">Close Navigation drawer</string>
+    <string name="one_stop_solution_for_bus_pass">One stop solution for bus pass</string>
+    <string name="pass_24">Pass 24</string>
+    <string name="todo">TODO</string>
+    <string name="hello_there_welcome_back">Hello there,\nWelcome back</string>
+    <string name="sign_in_to_continue">sign in to continue</string>
+    <string name="go">GO</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">password</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="new_user_sign_up">New User? SIGN UP</string>
+    <string name="welcome">Welcome</string>
+    <string name="sign_up_to_start_your_journey">Sign up to start your Journey</string>
+    <string name="full_name">Full name</string>
+    <string name="phonenumber">Phone Number</string>
+    <string name="already_have_an_account_login">Already have an account? LogIn</string>
+    <string name="home_page">HOME</string>
+    <string name="logout">logout</string>
+    <string name="personanl_details">Personanl Details</string>
+    <string name="home">Home</string>
+    <string name="pass_details">Pass Details</string>
+    <string name="time_table">Time Table</string>
+    <string name="authentication">Authentication</string>
+    <string name="sharing">Sharing</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="share">Share</string>
+    <string name="log_in">Log In</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="user">User</string>
+    <string name="bus_details">Bus details</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="update_details">Update Details</string>
+    <string name="view_status">View Status</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_menu"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
+
+<!--        <item-->
+<!--            android:id="@+id/pass_details_menu"-->
+<!--            android:icon="@drawable/ic_bus"-->
+<!--            android:title="@string/pass_details" />-->
+
+<!--        <item-->
+<!--            android:id="@+id/time_table"-->
+<!--            android:icon="@drawable/timetable"-->
+<!--            android:title="@string/time_table" />-->
+
+    </group>
+
+
+        <item android:title="@string/user">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/personal_details_menu"
+                    android:icon="@drawable/ic_login"
+                    android:title="@string/personal_details" />
+
+                <item
+                    android:id="@+id/logout_menu"
+                    android:icon="@drawable/logout"
+                    android:title="@string/logout" />
+            </group>
+
+        </menu>
+        </item>
+
+    <item android:title="@string/sharing">
+
+        <menu>
+            <group android:checkableBehavior="single">
+<!--                <item-->
+<!--                    android:id="@+id/view_status"-->
+<!--                    android:icon="@drawable/ic_status"-->
+<!--                    android:title="@string/view_status" />-->
+
+                <item
+                    android:id="@+id/view_status"
+                    android:icon="@drawable/ic_status"
+                    android:title="@string/view_status" />
+
+                <item
+                    android:id="@+id/privacy_policy_menu"
+                    android:icon="@drawable/ic_policy"
+                    android:title="@string/privacy_policy" />
+            </group>
+        </menu>
+    </item>
+</menu>
